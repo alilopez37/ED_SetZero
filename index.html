@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Algoritmo SetZero</title>
+</head>
+<body>
+    <h1>Algoritmo SetZero</h1>
+    <div>
+        <label>Filas: 
+            <input id="fil" type="number" placeholder="Por ejemlo: 5">
+        </label>    
+    </div>
+    <div>
+        <label for="col">Columnas:</label>
+        <input id="col" type="number" placeholder="Por ejemplo: 6">
+    </div>
+    <div class="main_btn">
+        <button id="genmatriz">Generar matriz</button>
+    </div>
+
+    <div>
+        <table border="1">
+            <tbody id="tab-mat">
+            </tbody>
+        </table>
+    </div>
+    <div class="main_btn">
+        <button id="setzero">SetZero</button>
+    </div>
+    <div>
+        <table border="1">
+            <tbody id="mat-zero">
+            </tbody>
+        </table>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

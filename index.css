@@ -1,0 +1,33 @@
+.main_btn {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.main_btn #genmatriz {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.main_btn #setzero {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+}
+
+td {
+    width: 25px; 
+    height: 25px; 
+    text-align: center; 
+    color: red;
+}
+
+input {
+    display: block;
+    width: 250px;
+}
